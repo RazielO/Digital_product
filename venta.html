@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/animation.css">
+	<link rel="stylesheet" href="./css/grid.css">
+
+	<title>Brand</title>
+</head>
+
+<body>
+
+	<!-- Navbar start -->
+	<nav class="fadeInDown">
+		<div class="brand-image">
+			<img src="images/logo.png" alt="">
+		</div>
+		<div class="nav-options">
+			<ul>
+				<li><a href="#">Faqs</a></li>
+				<li><a href="#">Producto y descripción</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Navbar end -->
+
+	<!-- Start content -->
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<div class="modulo-pago">
+					<div class="modulo-pago-image">
+						<img src="./images/box2.png" alt="">
+					</div>
+					<h3>Producto 1</h3>
+					<p>Miles de productos hay en el mercado, pero nada como una caja con gatitos, Miles de productos hay
+						en
+						el mercado, pero nada como una caja con gatitos</p>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="modulo-pago">
+					<form method="POST" action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DADJLFNM9P3VW">
+						<label for="name">Nombre</label>
+						<br>
+						<input type="text" class="data" name="" id="name">
+						<br>|
+						<label for="email">Email</label>
+						<br>
+						<input type="email" class="data" name="" id="email">
+						<br>
+						<label for="phone">Telefono</label>
+						<br>
+						<input type="phone" class="data" name="" id="phone">
+						<br>
+						<input type="submit" class="main-button" value="Confirmar pago">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End content -->
+
+	<!-- Footer start -->
+	<footer>
+		<a href="#">Términos y condiciones</a>
+		<a href="#">contacto@email.com</a>
+	</footer>
+	<!-- Footer end -->
+
+	<!-- Scripts -->
+	<scrip src="scripts/scrip.js"></scrip>
+</body>
+
+</html>
